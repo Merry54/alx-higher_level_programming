@@ -1,2 +1,1 @@
-this project is mandatory 
-higher level programming 
+this project is higher level programming.
