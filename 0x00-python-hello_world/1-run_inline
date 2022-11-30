@@ -1,2 +1,2 @@
-#!/usr/bin/bash
+#!/usr/bin/phython3
 phython3 -c "$PYCODE"

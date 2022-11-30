@@ -1,3 +1,4 @@
+#!/usr/bin/phython3
 #include "lists.h"
 
 /**
@@ -21,10 +22,7 @@ s2 = s2->next->next;
 if (!s2 || !s1)
 return (0);
 if (s2->next == s1)
-return (1); /* loop found */
-
+return (1);
 }
-
-/* no loop detected */
 return (0);
 }
