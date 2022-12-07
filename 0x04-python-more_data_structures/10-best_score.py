@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-def multiply_by_2(a_dictionary):
-    return {key: val * 2 for key, val in a_dictionary.items()}
-
+def best_score(a_dictionary):
+    return max(a_dictionary, key=a_dictionary.get) if a_dictionary else None
