@@ -1,4 +1,4 @@
-#!/usr/bin/python3 -u
+#!/usr/bin/python3
 
 import ctypes
 
@@ -39,5 +39,4 @@ l = [-1.0, -0.1, 0.0, 1.0, 3.14, 3.14159, 3.14159265, 3.141592653589793238462643
 print(l)
 lib.print_python_list(l);
 lib.print_python_float(l);
-
 lib.print_python_list(f);
