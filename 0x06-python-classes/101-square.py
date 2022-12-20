@@ -26,6 +26,7 @@ class Square:
             ValueError: if size is < 0.
         """
         return self.__size
+
     @size.setter
     def size(self, value):
         """ set the size of square

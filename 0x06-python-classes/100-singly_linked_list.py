@@ -16,6 +16,7 @@ def __init__(self, data, next_node=None):
         """gets data attribute"""
 
  return (self.__data)
+
  @data.setter
     def data(self, value)
         """sets data attribute"""

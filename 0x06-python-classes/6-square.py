@@ -56,6 +56,7 @@ class Square:
         if len([i for i in value if isinstance(i, int) and i >= 0]) != 2:
             raise TypeError('position must be a tuple of 2 positive integers')
         self.__position = value
+
     def area(self):
         """Get the area of a Square
         Returns: The size squared
