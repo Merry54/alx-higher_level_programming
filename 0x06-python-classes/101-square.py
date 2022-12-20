@@ -2,9 +2,11 @@
 
 class Square:
     """define a Square."""
+
     def __str__(self):
         """teach python to print the square my way"""
         return self.pos_print()[:-1]
+
     def __init__(self, size=0, position=(0, 0)):
         """ initialize the square with this
         Args:
@@ -35,6 +37,7 @@ class Square:
             raise TypeError('size must be an integer')
         if value < 0:
             raise ValueError('size must be >= 0')
+
         self.__size = value
 
     @property
@@ -69,6 +72,7 @@ class Square:
             size * size
         """
         return self.__size * self.__size
+
     def pos_print(self):
         """returns the printed square with position"""
         pos = ""
