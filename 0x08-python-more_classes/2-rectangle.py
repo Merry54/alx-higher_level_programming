@@ -27,6 +27,7 @@ class Rectangle:
     def height(self):
         """Property retriever, for retreiving
         the rectangle height
+
         """
         return self.__height
 
@@ -41,6 +42,7 @@ class Rectangle:
     def area(self):
         """Public instance method that returns
         the rectangle area
+
         """
         rectangle_area = self.__height * self.__width
         return rectangle_area
@@ -48,6 +50,7 @@ class Rectangle:
     def perimeter(self):
         """Public instance method that returns the
         rectangle perimeter
+
         """
         if self.__width == 0 or self.__height == 0:
             return (0)
